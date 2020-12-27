@@ -9,7 +9,9 @@ Setup Windows to run ssh server - https://www.concurrency.com/blog/may-2019/key-
 Create your own ssh keypairs (with `ssh-keygen`) and add them to this directory.
 Add the public key portion to the `c:\ProgramData\ssh\administrators_authorized_keys` file on the windows machine.
 
-Replace the IP address of your machine with the one in `hp.sh` file.
+Copy `changepass.cmd` file to `C:\Users\<username>` on the Windows machine. Change the username from `me` to whatever you have on the windows machine.
+
+Replace the IP address of your machine with the one in `hp.sh` file. Replace the username as well.
 
 Run a docker-compose
 `docker-compose up -d`
