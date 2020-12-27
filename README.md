@@ -23,6 +23,8 @@ me@DESKTOP-D7KOOUE C:\Users\me>rem timeout 10
 me@DESKTOP-D7KOOUE C:\Users\me>setlocal enabledelayedexpansion 
 "setting password to aaa"
 The command completed successfully.
-
 ```
 
+## Benefits
+- Peace of mind when you are sleeping - reach out your phone and just reset the password.
+- You dont have to know the currrent password to reset since it works with ssh key auth.
