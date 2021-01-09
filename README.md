@@ -30,3 +30,7 @@ The command completed successfully.
 ## Benefits
 - Peace of mind when you are sleeping - reach out your phone and just reset the password.
 - You dont have to know the currrent password to reset since it works with ssh key auth.
+
+
+## Update
+- Added a function to enable and disable Internet access as well. I use Shorewall on Linux machine as my router. Ping me if you need the configs for shorewall.
