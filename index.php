@@ -45,9 +45,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <form name="password" id='idForm' action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF "]);?>" method='POST'>
         <p><label for='file'><h3>reset hp laptop password.</h3></label></p>
         <input type='text' name='pass' id='pass' />
-	<input type="radio" name="internet" value="disable">Disable
-	<input type="radio" name="internet" value="enable">Enable
-	<input type="radio" name="internet" value="nochange" checked>No Change
+	<br />
+	<p><label for="access">Internet Access</label></p>
+	<input type="radio" name="internet" value="disable">Disable<br />
+	<input type="radio" name="internet" value="enable">Enable<br />
+	<input type="radio" name="internet" value="nochange" checked>No Change<br />
 	
         <br />
         <input type='submit' name='submit' value='Reset password' />
